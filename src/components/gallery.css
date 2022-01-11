@@ -1,0 +1,22 @@
+.main {
+  width: 100vw;
+}
+.title {
+  height: 100px;
+  display: block;
+  background-color: aliceblue;
+}
+.imageBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 100vh;
+}
+.img {
+  margin: 1em;
+  border: 0.2em solid #332d2a;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 255, 0.3);
+  max-width: 15vw;
+  cursor: pointer;
+}
